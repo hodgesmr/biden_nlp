@@ -2,7 +2,7 @@
 
 ![BIDEN](BIDEN.png)
 
-This is a [Jupyter Notebook](TODO) that introduces BIDEN: Binary Inference Dictionaries for Electoral NLP. It demonstrates a compression-based binary classification technique that is fast at both training and inference on common CPU hardware in Python.
+This is a [Jupyter Notebook](https://github.com/hodgesmr/biden_nlp/blob/main/Binary_Inference_Dictionaries_Electoral_NLP.ipynb) that introduces BIDEN: Binary Inference Dictionaries for Electoral NLP. It demonstrates a compression-based binary classification technique that is fast at both training and inference on common CPU hardware in Python.
 
 It is largely built on the strategies presented by [FTCC](https://github.com/cyrilou242/ftcc), which in turn, was a reaction to [Low-Resource Text Classification: A Parameter-Free Classification Method with Compressors](https://github.com/bazingagin/npc_gzip) (the gzip method). Like FTCC, **BIDEN** is built atop of [Zstandard](https://facebook.github.io/zstd/) (Zstd), which leverages [dictionary compression](https://facebook.github.io/zstd/#small-data). Zstd dictionary compression seeds a compressor with sample data, so that it can efficiently compress _small data_ (~1 KB) of similar composition. Seeding the compressor dictionaries acts as our "training" method for the model.
 
