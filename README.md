@@ -10,6 +10,12 @@ The **BIDEN** model was trained on the [ElectionEmails 2020](https://electionema
 
 It also demonstrates success at fast partisan classification for tweets and samples from the [campaign email database](https://political-emails.herokuapp.com/emails) maintained by [Derek Willis](https://www.thescoop.org).
 
+The idea of classification by compression is not new; Russell and Norvig wrote about it in 1995 in the venerable [Artificial Intelligence: A Modern Approach](https://aima.cs.berkeley.edu/3rd-ed/):
+
+![Classification by data compression](aiama.png)
+
+More recently, the ["gzip beats BERT" paper](https://aclanthology.org/2023.findings-acl.426/) got a lot of attention. What the **BIDEN** model demonstrates is that this technique is effective and likely generalizable on modern partisan texts.
+
 ## License
 
 All code is provided under the [BSD 3-Clause license](https://github.com/hodgesmr/biden_nlp/blob/main/LICENSE).
