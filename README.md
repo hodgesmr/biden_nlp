@@ -16,6 +16,6 @@ All code is provided under the [BSD 3-Clause license](https://github.com/hodgesm
 
 ## A Matt Hodges project
 
-This project is maintained by [@hodgesmr](https://mastodon.social/@MattHodges).
+This project is maintained by [@MattHodges](https://mastodon.social/@MattHodges).
 
 _Please use it for good, not evil._
